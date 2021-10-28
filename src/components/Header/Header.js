@@ -19,7 +19,7 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/event">Event</Link>
                             </li>
-                            <button className="btn btn-outline-success" type="submit">Register</button>
+                            <Link to="/login"><button className="btn btn-outline-success" type="submit">Login</button></Link>
                         </ul>
                     </div>
                 </div>
